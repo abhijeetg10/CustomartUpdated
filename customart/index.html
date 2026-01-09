@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CustomArt | Personalized Mugs, T-Shirts & Custom Gifts India</title>
+  <meta name="title" content="CustomArt | Personalized Mugs, T-Shirts & Custom Gifts India">
+  <meta name="description" content="Create your own style with CustomArt. Design personalized mugs, t-shirts, mouse pads, and caps with our live 3D preview. High-quality prints delivered across India.">
+  <meta name="keywords" content="personalized mugs, custom t-shirts india, customized mouse pads, personalized caps, custom gifts, 3D product design, CustomArt">
+  <meta name="author" content="Abhijeet Gaikwad">
+  <meta name="robots" content="index, follow">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yourdomain.com/"> <meta property="og:title" content="CustomArt | Create Your Own Style with Personalized Products">
+  <meta property="og:description" content="Design and preview your custom products in 3D. Order via WhatsApp for personalized mugs, shirts, and more.">
+  <meta property="og:image" content="https://yourdomain.com/cup1.png"> <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://yourdomain.com/">
+  <meta property="twitter:title" content="CustomArt | Personalized Products">
+  <meta property="twitter:description" content="Design and preview your custom products in 3D. Order via WhatsApp for personalized mugs, shirts, and more.">
+  <meta property="twitter:image" content="https://yourdomain.com/cup1.png">
+  <link rel="icon" type="image/png" href="cup1.png">
+  <link rel="icon" type="image/png" href="cup1.png">
+  <link rel="stylesheet" href="style.css">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-J60RK8X89R"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-J60RK8X89R');
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I customize my product?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Simply select your product, upload your high-quality design in our 3D Studio, and adjust the placement. Once you're happy, click 'Confirm Order' to send the details to us via WhatsApp."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What products can I personalize?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Currently, we offer premium ceramic mugs, pro gaming mouse pads, cotton t-shirts, and stylish caps."
+      }
+    }
+  ]
+}
+</script>
+  <script src="https://checkout.razorpay.com/v1/checkout.js" defer></script>
+</head>
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+
+<body>
+<div id="preloader">
+  <div class="spinner"></div>
+  <p>Loading 3D Studio...</p>
+</div>
+<header>
+  <div class="logo">Custom<span>Art</span></div>
+  <nav>
+    <a href="#hero">Home</a>
+    <a href="#Products">Products</a>
+    <a href="#Customize">Customize</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#Contact">Contact</a>
+  </nav>
+  <div class="nav-actions">
+    
+    <button class="btn btn-primary" onclick="openOrderModal()" >Shop Now</button>
+  </div>
+</header>
+
+<section class="hero" id="hero">
+  <div>
+    <h1>Create Your <span>Own Style</span><br>With Custom Products</h1>
+    <p>Design personalized mugs, mouse pads, t‑shirts, caps and more. Upload your photo, add text, preview instantly and order with confidence.</p>
+    <div class="hero-buttons">
+      <button class="btn btn-primary" onclick="document.getElementById('Customize').scrollIntoView({ behavior: 'smooth' });">Start Customizing</button>
+      <button class="btn btn-outline" onclick="openOrderModal()" >Shop Now</button>
+      
+    </div>
+  </div>
+
+  <div class="hero-card" >
+    <span class="badge">Custom your own</span>
+    <div class="hero-slideshow">
+      
+  
+  <img src="cup2.png" class="slide active" alt="Mug">
+  <img src="tshirrt2.png" class="slide" alt="Tshirt">
+  <img src="moucepad1.png" class="slide" alt="Mousepad">
+  <img src="cap.png" class="slide" alt="Cap">
+    </div>
+
+    <div class="card-footer">
+      <span>High Quality Print</span>
+      <span>⭐ 4.5</span>
+    </div>
+  </div>
+</section>
+
+
+<section id="Products">
+  <div class="section-title">
+    <h2>Our Custom Products</h2>
+    <p>Choose your product and start customizing instantly</p>
+  </div>
+
+  <div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(280px,1fr));">
+    <div class="card"><img src="cup1.png"><h3>Custom Mugs</h3><p>360° printable ceramic mugs</p> <br><button class="btn btn-outline" onclick="openOrderModal()" >199 Rs.</button></div>
+    <div class="card"><img src="tshirt1.png"><h3>T-Shirts</h3><p>Cotton & polyester premium prints</p><br><button class="btn btn-outline" onclick="openOrderModal()" >499 Rs.</button></div>
+    <div class="card"><img src="moucepad2.png"><h3>Mouse Pads</h3><p>Smooth surface with anti-slip base</p><br><button class="btn btn-outline" onclick="openOrderModal()" >199 Rs.</button></div>
+    <div class="card"><img src="cap.png"><h3>Caps</h3><p>Stylish embroidery & print designs</p><br><button class="btn btn-outline" onclick="openOrderModal()" >199 Rs.</button></div>
+  </div>
+</section>
+<br> <br>
+
+
+<style>
+  .customize-studio {
+    padding: 100px 60px;
+    background: #fdfdfd;
+  }
+  .studio-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    gap: 40px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 40px;
+    box-shadow: 0 40px 100px rgba(0,0,0,0.08);
+  }
+  .control-panel {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .control-group {
+    position: relative;
+    padding: 25px;
+    background: #f8f9fa;
+    border-radius: 24px;
+    border: 1px solid #eee;
+  }
+  .step-badge {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: 30px;
+    height: 30px;
+    background: var(--primary);
+    color: #fff;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 12px;
+  }
+  .control-group h3 { font-size: 16px; margin-bottom: 15px; }
+  .studio-input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1.5px solid #ddd;
+    background: #fff;
+  }
+  .range-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 15px; }
+  .range-item label { font-size: 11px; color: var(--gray); display: block; }
+  
+  .viewer-panel {
+    background: #0b1220;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    min-height: 500px;
+  }
+  .viewer-header {
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    background: rgba(255,255,255,0.03);
+  }
+  .live-indicator { color: #4ade80; font-size: 11px; font-weight: 700; }
+  #preview3D { width: 100%; height: 100%; flex: 1; }
+  
+  .studio-order-btn {
+    width: 100%;
+    padding: 18px;
+    border-radius: 18px;
+    background: var(--primary);
+    color: #fff;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 10px 25px rgba(227, 179, 65, 0.3);
+  }
+
+  @media (max-width: 1000px) {
+    .studio-container { grid-template-columns: 1fr; }
+    .customize-studio { padding: 40px 20px; }
+  }
+</style>
+
+<section class="customize-studio" id="Customize">
+  <div class="section-title">
+    <span class="eyebrow" style="color:var(--primary); font-weight:700; letter-spacing:2px; display:block; margin-bottom:10px;">DESIGN STUDIO</span>
+    <h2>Create Your Masterpiece</h2>
+    <p>Professional tools to bring your imagination to life in real-time.</p>
+  </div>
+
+  <div class="studio-container">
+    <div class="control-panel">
+      <div class="control-group">
+        <div class="step-badge">01</div>
+        <h3>Select Canvas</h3>
+        <select id="productSelect" class="studio-input">
+          <option value="mug">Premium Ceramic Mug</option>
+          <option value="mousepad">Pro Gaming Mouse Pad</option>
+        </select>
+      </div>
+
+      <div class="control-group">
+        <div class="step-badge">02</div>
+        <h3>Upload Design</h3>
+        <input type="file" id="studioFile" class="studio-input" accept="image/*">
+      </div>
+
+      <div class="control-group">
+        <div class="step-badge">03</div>
+        <h3>Refine Placement</h3>
+        <div class="range-item">
+          <label>Size</label>
+          <input type="range" id="scaleRange" min="0.3" max="1.5" step="0.05" value="0.8">
+        </div>
+        <div class="range-grid">
+          <div class="range-item">
+            <label>Horizontal</label>
+            <input type="range" id="posX" min="-1" max="1" step="0.05" value="0">
+          </div>
+          <div class="range-item">
+            <label>Vertical</label>
+            <input type="range" id="posY" min="-1" max="1" step="0.05" value="0">
+          </div>
+        </div>
+      </div>
+
+      <button class="studio-order-btn" onclick="openOrderModal()">
+        Proceed to Order
+      </button>
+    </div>
+
+    <div class="viewer-panel">
+      <div class="viewer-header">
+        <span class="live-indicator">● LIVE 3D PREVIEW</span>
+        <span style="color:#64748b; font-size:11px;">360° INTERACTIVE</span>
+      </div>
+      <canvas id="preview3D"></canvas>
+    </div>
+  </div>
+</section>
+
+<script>
+  // Tiny fix to make sure the upload button works with the new design
+  document.addEventListener('DOMContentLoaded', () => {
+    const studioFile = document.getElementById('studioFile');
+    if(studioFile) {
+      studioFile.addEventListener('change', e => {
+        const reader = new FileReader();
+        reader.onload = () => {
+          const tex = new THREE.TextureLoader().load(reader.result);
+          if(designMesh) {
+            designMesh.material.map = tex;
+            designMesh.material.needsUpdate = true;
+          }
+        };
+        reader.readAsDataURL(e.target.files[0]);
+      });
+    }
+  });
+</script>
+
+<center>
+  <div class="modal-overlay" id="orderModal">
+  <div class="modal">
+    <h3>Place Your Order</h3>
+
+    <form id="orderForm"  >
+      <input type="text" id="custName" placeholder="Full Name" required>
+      <input type="tel" id="custMobile" placeholder="Mobile Number" pattern="[0-9]{10}" required>
+      
+      <select id="orderProductSelect" required>
+        <option value="mug">Custom Mug – ₹199</option>
+        <option value="mousepad">Mouse Pad – ₹199</option>
+        <option value="cap">Cap – ₹199</option>
+        <option value="tshirt">T-Shirt – ₹499</option>
+      </select>
+
+      <input type="number" id="orderQuantity" min="1" value="1" required>
+      <textarea id="custAddress" placeholder="Full Delivery Address" required></textarea>
+
+      <input type="file" id="designUpload" accept="image/*" required>
+      <label style="width:100%;text-align:left;font-weight:600;margin-top:10px">
+       Payment Method
+        </label>
+      
+       <select id="paymentMethod" required>
+        <option value="cod">Cash on Delivery (COD)</option>
+        <option value="upi">UPI Payment</option>
+       </select>
+      
+
+      <div id="upiQRBox" style="display:none; text-align:center; margin:15px 0;">
+  
+  
+  <p style="font-weight:600; margin-bottom:10px;">
+    Scan & Pay using UPI
+  </p>
+  <img id="upiQR" src="" alt="UPI QR Code"
+       style="width:200px; height:200px; border-radius:12px; box-shadow:0 10px 25px rgba(0,0,0,.15)">
+  <p style="font-size:13px; color:#6b7280; margin-top:8px;">
+    After payment, select on confirm order, for any queries contact + 918830524454
+  </p>
+</div>
+
+
+ 
+      <div style="text-align:center;font-weight:600;margin:12px 0">
+        Total Price: ₹<span id="orderTotalPrice">199</span>
+      </div>
+
+      <button class="contact-btn" type="submit">Confirm Order</button>
+
+    </form>
+
+    <span class="modal-close" onclick="closeOrderModal()">✕</span>
+  </div>
+
+</div>
+</center>
+<br>
+
+
+<section id="gallery" style="background:#fff;">
+  <div class="section-title">
+    <h2>Our Work Gallery</h2>
+    <p>Some of our recent custom designs crafted with love</p>
+  </div>
+
+  <div class="gallery-filters">
+    <button class="btn btn-outline active" data-filter="all">All</button>
+    <button class="btn btn-outline" data-filter="mug">Mugs</button>
+    <button class="btn btn-outline" data-filter="tshirt">T-Shirts</button>
+    <button class="btn btn-outline" data-filter="mousepad">Mouse Pads</button>
+  </div>
+
+  <div class="gallery-grid">
+    <div class="gallery-item mug"><img src="cup1.png"></div>
+    <div class="gallery-item mug"><img src="cup2.png"></div>
+    <div class="gallery-item mug"><img src="mug3.png"></div>
+    <div class="gallery-item mug"><img src="mugg4.png"></div>
+
+    <div class="gallery-item tshirt"><img src="tshirrt2.png"></div>
+    <div class="gallery-item tshirt"><img src="tshirt1.png"></div>
+    <div class="gallery-item tshirt"><img src="tshirt3.png"></div>
+    <div class="gallery-item tshirt"><img src="tshirt4.png"></div>
+
+    <div class="gallery-item mousepad"><img src="moucepad1.png"></div>
+    <div class="gallery-item mousepad"><img src="moucepad2.png"></div>
+    <div class="gallery-item mousepad"><img src="mousepad3.jpg"></div>
+    <div class="gallery-item mousepad"><img src="mousepad4.jpg"></div>
+  </div>
+</section>
+
+
+<section class="contact-section" id="Contact">
+  <div class="section-title">
+    <h2>Get in Touch</h2>
+    <p>Reach out to us for help, orders, or custom design queries</p>
+  </div>
+
+
+  <div class="contact-grid">
+
+    <div class="contact-card">
+      <div class="contact-icon">📧</div>
+      <h3>Email Us</h3>
+      <p>customart2308@gmail.com</p>
+
+      <a
+        class="contact-btn"
+        href="mailto:customart2308@gmail.com
+        ?subject=CustomArt%20Product%20Inquiry
+        &body=Hello%20CustomArt%20Team,%0D%0A%0D%0AI%20am%20interested%20in%20customizing%20a%20product.%20Please%20guide%20me%20with%20the%20next%20steps.%0D%0A%0D%0AThank%20you."
+      >
+        Send Email
+      </a>
+    </div>
+
+    <div class="contact-card">
+      <div class="contact-icon">💬</div>
+      <h3>WhatsApp</h3>
+      <p>Chat with us instantly</p>
+
+      <a
+        class="contact-btn"
+        href="https://wa.me/918830524454?text=Hello%20CustomArt!%20I%20would%20like%20to%20know%20more%20about%20custom%20products%20and%20pricing."
+        target="_blank"
+      >
+        Chat on WhatsApp
+      </a>
+    </div>
+
+    <div class="contact-card">
+      <div class="contact-icon">📞</div>
+      <h3>Call Us</h3>
+      <p>+ 91 88305244541</p>
+
+      <a class="contact-btn" href="tel:+9188305244541">
+        Call Now
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<br>
+<br>
+<div class="sticky-contact">
+  <a href="tel:+918830524454">📞</a>
+</div>
+
+<div class="modal-overlay" id="signupModal">
+  <div class="modal">
+    <h3>Create Your Account</h3>
+    <form id="signupForm">
+      <input type="text" placeholder="Full Name" required>
+      <input type="email" placeholder="Email" required>
+      <input type="password" placeholder="Password" required>
+      <button type="submit" class="contact-btn">Sign Up</button>
+    </form>
+    <span class="modal-close" onclick="closeSignupModal()">✕</span>
+  </div>
+</div>
+
+<section id="reviews" class="reviews-section">
+  <div class="section-title">
+    <span class="eyebrow">Testimonials</span>
+    <h2>Loved by Creators</h2>
+    <p>See why customers across India trust CustomArt for their memories.</p>
+  </div>
+
+  <div class="reviews-container">
+    <div class="review-card featured">
+      <div class="quote-icon">“</div>
+      <p class="review-text">The 3D preview tool made it so easy to see exactly how my mug would look. When it arrived, the print quality was even better than the screen! Truly professional service.</p>
+      <div class="reviewer-info">
+        <div class="avatar">AM</div>
+        <div class="details">
+          <h4>Abhijeet Mangrule</h4>
+          <span>Dharashiv, MH</span>
+        </div>
+      </div>
+      <div class="stars">★★★★★</div>
+    </div>
+
+    <div class="review-grid">
+      <div class="review-card mini">
+        <p>"Amazing quality and fast delivery. The mousepad surface is super smooth!"</p>
+        <div class="reviewer-info">
+          <div class="avatar">SS</div>
+          <div class="details">
+            <h4>Shubham Shewalkar</h4>
+            <span>Belamb</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="review-card mini">
+        <p>"The T-shirt fabric is premium cotton. Print hasn't faded even after 5 washes."</p>
+        <div class="reviewer-info">
+          <div class="avatar">AJ</div>
+          <div class="details">
+            <h4>Aditya Jagtap</h4>
+            <span>Satara</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="review-card mini">
+        <p>"Ordered 10 caps for a family event. Everyone loved the embroidery!"</p>
+        <div class="reviewer-info">
+          <div class="avatar">VG</div>
+          <div class="details">
+            <h4>Vedant Ghadage</h4>
+            <span>Sangli</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="review-card mini">
+        <p>"Fastest shipping I've seen for custom products. Highly recommended."</p>
+        <div class="reviewer-info">
+          <div class="avatar">AW</div>
+          <div class="details">
+            <h4>Abhishek Waghmare</h4>
+            <span>Vita</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="faq" style="padding: 60px 20px; max-width: 85%; margin: auto;">
+  <h2>Frequently Asked Questions</h2>
+  <div class="faq-item">
+    <h3>How do I customize my product?</h3>
+    <p>Use our 3D Design Studio to upload your image, adjust the scale, and preview it in real-time before ordering via WhatsApp.</p>
+  </div>
+  <br>
+  <div class="faq-item">
+    <h3>What is the delivery time in India?</h3>
+    <p>We usually deliver personalized products within 5-7 business days across India.</p>
+  </div>
+  <br>
+</section>
+
+
+<footer style="padding-bottom: 20px;">
+  <div>
+    <h4>CustomArt</h4>
+    <p>Create memories with personalized products crafted just for you.</p>
+    <br>
+        <div style="border-left: 2px solid #e3b341; padding-left: 15px;">
+        <span style="font-size: 20px; letter-spacing: 1px; color: #e3b341; font-weight: 700; text-transform: uppercase;">
+          Developed By
+        </span>
+        <p style="margin: 4px 0 2px; font-weight: 600; font-size: 15px;">
+          Abhijeet Ravindra Gaikwad
+        </p>
+        <a href="mailto:argaikwad24@gmail.com"
+           style="font-size: 13px; color: #d1d5db; text-decoration: none; opacity: 0.7;"
+           onmouseover="this.style.color='#e3b341'; this.style.opacity='1'"
+           onmouseout="this.style.color='#d1d5db'; this.style.opacity='0.7'">
+          argaikwad24@gmail.com
+        </a>
+      </div>
+      
+      <br>
+</div>
+  </div>
+
+  <div>
+    <h4>Quick Links</h4>
+    <a href="#Products">Products</a>
+    <a href="#Customize">Customize</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#Contact">Contact</a>
+  </div>
+
+  <div>
+    <h4>Support</h4>
+    <a href="mailto:customart2308@gmail.com">Email Us</a>
+    <a href="https://wa.me/918830524454" target="_blank">WhatsApp</a>
+    <a href="tel:+918830524454">Call Us</a>
+  </div>
+ Visitor Counter 
+ <div class="golden-counter-small">
+  <div id="sfcnrkndr8jew4zpxfuznflmmw7njpp5q1b"></div>
+
+  <script
+    src="https://counter1.optistats.ovh/private/counter.js?c=nrkndr8jew4zpxfuznflmmw7njpp5q1b&down=async"
+    async>
+  </script>
+
+  <noscript>
+    <img src="https://counter1.optistats.ovh/private/freecounterstat.php?c=nrkndr8jew4zpxfuznflmmw7njpp5q1b" alt="counter">
+  </noscript>
+</div>
+
+  <div style="grid-column: 1 / -1; text-align: center; padding-top: 40px; border-top: 1px solid rgba(255,255,255,0.05); margin-top: 20px;">
+    <p style="font-size: 12px; opacity: 0.6;">&copy; 2026 CustomArt. All Rights Reserved | Designed with ❤️ by Abhijeet</p>
+  </div>
+
+</footer>
+
+
+
+<div class="modal-overlay" id="contactModal">
+  <div class="modal">
+    <h3>Contact CustomArt</h3>
+
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+
+      <select id="modalProduct">
+        <option value="Mug">Custom Mug</option>
+        <option value="T-Shirt">T-Shirt</option>
+        <option value="Mouse Pad">Mouse Pad</option>
+        <option value="Cap">Cap</option>
+      </select>
+
+      <textarea placeholder="Your Message" required></textarea>
+
+      <button type="submit" class="contact-btn">Send Message</button>
+    </form>
+
+
+    <span class="modal-close" onclick="closeModal()">✕</span>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/three@0.152.2/build/three.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
